@@ -540,7 +540,7 @@ ul.t-ul li:last-child {
 
 .t-navbar li a:hover {
     color: #000;
-    background-color: #ccc
+    background-color: darkslategray;
 }
 
 .t-navbar .t-dropdown-hover,
@@ -2312,7 +2312,7 @@ body, html {
     color: #fff;
     line-height: 1.8;
     background-color: black;
-      background-image: url("../img/5.jpg");
+      background-image: url("../img/8.png");
        background-attachment: fixed;
        background-position: center;
        background-repeat: no-repeat;
@@ -2371,4 +2371,16 @@ body, html {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+/* =================CONTACT========== */
+
+
+ul.onWeb li{
+    display: inline-block;
+    margin: 0 1.8%;
+}
+
+ul.onWeb li i{
+    font-size: 40px;
 }
